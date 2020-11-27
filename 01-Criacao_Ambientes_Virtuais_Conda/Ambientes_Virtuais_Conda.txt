@@ -1,0 +1,26 @@
+- informações
+conda info
+
+- atualiza o conda
+conda update conda
+
+- atualiza o anaconda
+conda update anaconda
+
+- atualiza todos os pacotes
+conda update --all	
+
+- buscar as versões do pacote
+conda search numpy(nome do pacote)
+
+- lista os ambientes virtuais existentes
+conda env list
+
+- criar ambiente virtual com anaconda (se não informar a versão de algum ele cria com a versão compativel)
+conda create -n projeto1 python==3.7.2 numpy==1.16.1 scipy
+
+- Para ativar o ambiente virtual
+conda activate projeto1
+
+- Para desativar o ambiente virtual
+conda deactivate
